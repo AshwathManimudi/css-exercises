@@ -1,0 +1,11 @@
+div .text{
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* valid also
+div p (only chaining selectors (.selector.selector2 you are not allowed to use 2 type selectors as it would become divp))
+descendant combinator there is separatation and parent child relationship
+*/

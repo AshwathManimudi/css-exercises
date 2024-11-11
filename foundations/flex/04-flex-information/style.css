@@ -10,7 +10,27 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
 }
+
+.content{
+  display:flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 10px;
+  gap: 30px;
+
+}
+
+.card{
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;*/
+  max-width: 200px;
+}
+
+/* only max width is enough to achive this layout, ----restrict card size to uniform width-----*/
 
 /* do not edit this footer */
 .footer {
